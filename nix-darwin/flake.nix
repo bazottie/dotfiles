@@ -48,6 +48,8 @@
 			"visual-studio-code"
 			"webstorm"
 		];
+		onActivation.autoUpdate = true;
+		onActivation.upgrade = true;
 	};
 
       # Auto upgrade nix package and the daemon service.
