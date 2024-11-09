@@ -6,3 +6,6 @@ or apply changes
 ### Update
 `nix flake update`
 
+## ZSH
+`echo "source ~/.config/.zsh/.zshrc" >> ~/.zshrc`
+or overwrite `~/.zshrc` with `source ~/.config/.zsh/.zshrc`

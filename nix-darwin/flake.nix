@@ -14,23 +14,27 @@
       # List packages installed in system profile. To search by name, run:
       # $ nix-env -qaP | grep wget
       environment.systemPackages = with pkgs; [
+      		fzf
 		neovim
 		php
 		deno
 		git-lfs
 		lazygit
 		neovim
+		zoxide
         ];
 
 	homebrew = {
 		enable = true;
 		brews = [
+			"zsh"
 			"mas"
 			"openjdk"
 			"composer"
 			"jupyterlab"
 			"pyenv"
 			"pipx"
+			"oh-my-posh"
 		];
 		casks = [
 			"arc"
