@@ -1,6 +1,7 @@
 raycast
-iterm2
-!item/toky-night.itermcolors
+!iterm2
+iterm2/*
+!iterm2/themes
 github-copilot
 configstore
 nix-darwin/result
