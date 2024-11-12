@@ -22,6 +22,7 @@
 		lazygit
 		neovim
 		zoxide
+		iterm2
         ];
 
 	homebrew = {
