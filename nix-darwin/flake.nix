@@ -53,6 +53,7 @@
 			"steam"
 			"visual-studio-code"
 			"webstorm"
+			"proton-drive"
 		];
 		onActivation.autoUpdate = true;
 		onActivation.upgrade = true;
