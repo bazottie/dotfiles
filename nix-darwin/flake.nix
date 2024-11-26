@@ -24,6 +24,7 @@
 		zoxide
 		iterm2
 		difftastic
+		postman
 		];
 
 	homebrew = {
@@ -54,6 +55,7 @@
 			"visual-studio-code"
 			"webstorm"
 			"proton-drive"
+			"zen-browser"
 		];
 		onActivation.autoUpdate = true;
 		onActivation.upgrade = true;
