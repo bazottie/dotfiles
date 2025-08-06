@@ -35,7 +35,9 @@
 		zoxide
 		iterm2
 		difftastic
+		mise
 		];
+
         homebrew = {
             enable = true;
             brews = [
