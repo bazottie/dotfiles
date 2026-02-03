@@ -2,7 +2,7 @@
 usage = "latest"
 
 deno = "latest"
-node = "lts"
+node = "22"
 pnpm = "latest"
 go = "latest"
 

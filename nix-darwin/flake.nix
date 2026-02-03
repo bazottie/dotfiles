@@ -33,7 +33,6 @@
 		lazygit
 		neovim
 		zoxide
-		iterm2
 		difftastic
 		mise
 		];
@@ -45,7 +44,6 @@
             "mas"
             "openjdk"
             "composer"
-            "jupyterlab"
             "pyenv"
             "pipx"
             "oh-my-posh"
