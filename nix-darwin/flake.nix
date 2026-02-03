@@ -35,6 +35,7 @@
 		zoxide
 		difftastic
 		mise
+		opentofu
 		];
 
         homebrew = {
