@@ -67,13 +67,13 @@ alias ls='ls --color'
 alias vim='nvim'
 alias c='clear'
 
-# Shell integrations
-eval "$(fzf --zsh)"
-eval "$(zoxide init --cmd cd zsh)"
+export PATH="/opt/homebrew/opt/bison/bin:$PATH"
 
 # export NVM_DIR="$HOME/.nvm"
 #  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
 #  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
+# Shell integrations (zoxide last — it wants to be the final PATH/hook change)
 eval "$(mise activate zsh)"
-echo 'export PATH="/opt/homebrew/opt/bison/bin:$PATH"' >> ~/.zshrc
+eval "$(fzf --zsh)"
+eval "$(zoxide init --cmd cd zsh)"
